@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		007292C7187D2921001550EB /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 007292C6187D2921001550EB /* image.jpg */; };
 		8BC1B24D187C5BC000620D75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1B24C187C5BC000620D75 /* Foundation.framework */; };
 		8BC1B24F187C5BC000620D75 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1B24E187C5BC000620D75 /* CoreGraphics.framework */; };
 		8BC1B251187C5BC000620D75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1B250187C5BC000620D75 /* UIKit.framework */; };
@@ -21,7 +22,6 @@
 		8BC1B26E187C5BC100620D75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BC1B250187C5BC000620D75 /* UIKit.framework */; };
 		8BC1B276187C5BC100620D75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BC1B274187C5BC100620D75 /* InfoPlist.strings */; };
 		8BC1B278187C5BC100620D75 /* ScrollViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC1B277187C5BC100620D75 /* ScrollViewTestTests.m */; };
-		8BC1B282187C5EC500620D75 /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8BC1B281187C5EC500620D75 /* image.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		007292C6187D2921001550EB /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
 		8BC1B249187C5BC000620D75 /* ScrollViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC1B24C187C5BC000620D75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8BC1B24E187C5BC000620D75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -54,7 +55,6 @@
 		8BC1B273187C5BC100620D75 /* ScrollViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrollViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		8BC1B275187C5BC100620D75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8BC1B277187C5BC100620D75 /* ScrollViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewTestTests.m; sourceTree = "<group>"; };
-		8BC1B281187C5EC500620D75 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image.jpg; path = ../../../../Users/LHY/Downloads/image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		8BC1B240187C5BC000620D75 = {
 			isa = PBXGroup;
 			children = (
-				8BC1B281187C5EC500620D75 /* image.jpg */,
+				007292C6187D2921001550EB /* image.jpg */,
 				8BC1B252187C5BC000620D75 /* ScrollViewTest */,
 				8BC1B271187C5BC100620D75 /* ScrollViewTestTests */,
 				8BC1B24B187C5BC000620D75 /* Frameworks */,
@@ -234,7 +234,7 @@
 				8BC1B265187C5BC100620D75 /* Images.xcassets in Resources */,
 				8BC1B257187C5BC000620D75 /* InfoPlist.strings in Resources */,
 				8BC1B260187C5BC100620D75 /* Main.storyboard in Resources */,
-				8BC1B282187C5EC500620D75 /* image.jpg in Resources */,
+				007292C7187D2921001550EB /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +464,7 @@
 				8BC1B27D187C5BC100620D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BC1B27E187C5BC100620D75 /* Build configuration list for PBXNativeTarget "ScrollViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +473,7 @@
 				8BC1B280187C5BC100620D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
